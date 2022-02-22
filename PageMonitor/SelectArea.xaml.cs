@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Controls;
 
-namespace TestWpfApp
+namespace PageMonitor
 {
     public partial class SelectArea : Window
     {

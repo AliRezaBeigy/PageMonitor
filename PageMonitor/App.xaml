@@ -1,7 +1,7 @@
-﻿<Application x:Class="TestWpfApp.App"
+﻿<Application x:Class="PageMonitor.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:TestWpfApp"
+             xmlns:local="clr-namespace:PageMonitor"
              StartupUri="SelectArea.xaml">
     <Application.Resources>
         <ResourceDictionary Source="ButtonDictionary.xaml" />

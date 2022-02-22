@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Runtime.InteropServices;
 
-namespace TestWpfApp
+namespace PageMonitor
 {
     public partial class MainWindow : Window
     {

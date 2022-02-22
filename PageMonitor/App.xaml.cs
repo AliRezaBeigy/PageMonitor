@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace TestWpfApp
+namespace PageMonitor
 {
     /// <summary>
     /// Interaction logic for App.xaml
