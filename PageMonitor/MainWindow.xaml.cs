@@ -118,7 +118,7 @@ namespace PageMonitor
                     statusText.Text = $"Current Page: {pageNumber}";
                 }));
 
-                if(!string.IsNullOrWhiteSpace(pageNumber))
+                if(!string.IsNullOrWhiteSpace(pageNumber) && int.TryParse(pageNumber, out var _))
                 {
                     if (pageNumber != CurrentPage)
                         SendPageNumberToChat(pageNumber);
@@ -140,6 +140,9 @@ namespace PageMonitor
 
             Thread.Sleep(500);
 
+            simulator.Mouse.LeftButtonClick();
+            // Ensure chatbox focused
+            simulator.Mouse.LeftButtonClick();
             simulator.Mouse.LeftButtonClick();
 
             for (int i = 0; i < 10; i++)
